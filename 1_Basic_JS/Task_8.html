@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let num1 = parseFloat(prompt("Enter First Number: "));
+        let num2 = parseFloat(prompt("Enter Second Number: "));
+
+        function add(num1, num2) {
+            let result = num1 + num2;
+            return result;
+        }
+
+        function sub(num1, num2) {
+            let result = num1 - num2;
+            return result;
+        }
+
+        function mul(num1, num2) {
+            let result = num1 * num2;
+            return result;
+        }
+
+        function div(num1, num2) {
+            let result = num1 / num2;
+            return result;
+        }
+
+        document.write(add(num1, num2));
+        document.write("<br>");
+        document.write(sub(num1, num2));
+        document.write("<br>");
+        document.write(mul(num1, num2));
+        document.write("<br>");
+        document.write(div(num1, num2));
+    </script>
+</body>
+
+</html>
